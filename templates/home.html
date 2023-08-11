@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>  
+<html>  
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+<!-- <script src="jquery-csv.js"></script> -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container { 
+  border-radius: 5px; 
+    padding: 50px;  
+  background-color: lightblue;  
+
+
+  height: 100%;
+    /* background-image: url("Screenshot\ \(209\).png"); */
+    background-image: url("https://i.postimg.cc/vZRr6T3N/aero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: aqua; */
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+
+#selectStyle {
+  height: 29px;
+  overflow: hidden;
+  width: 470px;
+}
+#selectStyledept {
+  height: 29px;
+  overflow: hidden;
+  width: 470px;
+}
+#selectStylearr {
+  height: 29px;
+  overflow: hidden;
+  width: 470px;
+}
+#date {
+  height: 29px;
+  overflow: hidden;
+  width: 470px;
+}
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* Heading  */
+.nine h1 {
+  text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+  font-family:"Playfair Display", serif; font-weight:400;
+}
+.nine h1 span {
+  margin-top: 5px;
+    font-size:15px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.nine h1 span:after,.nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+/* Background image */
+.hero__images {
+    height: 100%;
+    /* background-image: url("Screenshot\ \(209\).png"); */
+    background-image: url("https://i.postimg.cc/NfX1S37K/delivery-man.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: aqua; */
+}
+
+/* InputBoxes */
+.user_id input {
+    width: 100%;
+    display: block;
+    outline: none;
+    border: 0;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 0.8rem 0;
+    color: rgb(1, 32, 32);
+}
+
+.user_id input::placeholder{
+    color: rgb(1, 32, 32);
+}
+
+.user_id input:active {
+    outline: 2px solid rgb(89, 250, 156);
+}
+
+/* BUTTON  */
+.btn__wrapper button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0.8rem 0;
+    color: rgb(1, 32, 32);
+}
+
+.btn__wrapper button:hover {
+    background-color: rgb(89, 250, 156); 
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+/* CHECHBOX  */
+
+
+</style> 
+
+</head>  
+<body> 
+    
+    <script> 
+        // for CARRIER
+        var carrier_list
+        async function getrandom(){
+          fetch('http://127.0.0.1:5000/carrier')
+            .then(response => response.json())
+            .then(text => myFunc(text))
+        }     
+        
+      function myFunc(success) {
+        // do what you want HERE.
+        // carrier_list=success 
+        // console.log(typeof success)
+        var select = document.getElementById("selectStyle");
+
+        for(var i = 0; i < success.length; i++) {
+            var opt = success[i];
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select.appendChild(el);
+        } }
+    getrandom()
+    // For Departure Airport
+    var carrier_list
+        async function getrandomdept(){
+          fetch('http://127.0.0.1:5000/dept')
+            .then(response => response.json())
+            .then(text => myFuncdept(text))
+        }     
+        
+      function myFuncdept(successd) {
+        // do what you want HERE.
+        // carrier_list=success 
+        // console.log(typeof successd)
+        var selectd = document.getElementById("selectStyledept");
+
+        for(var i = 0; i < successd.length; i++) {
+            var opt = successd[i];
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            selectd.appendChild(el);
+        } }
+    getrandomdept()
+
+    // For Arrival Airport
+    var carrier_list
+        async function getrandomarr(){
+          fetch('http://127.0.0.1:5000/arr')
+            .then(response => response.json())
+            .then(text => myFuncarr(text))
+        }     
+        
+      function myFuncarr(successd) {
+        // do what you want HERE.
+        // carrier_list=success 
+        // console.log(typeof successd)
+        var selectd = document.getElementById("selectStylearr");
+
+        for(var i = 0; i < successd.length; i++) {
+            var opt = successd[i];
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            selectd.appendChild(el);
+        } }
+      getrandomarr()
+      //Alert Message
+      function checkDropdownSelection() {
+                      var from = document.getElementById("selectStyledept");
+                      var to = document.getElementById("selectStylearr");
+                      console.log(from,to)
+                      if (from.value == to.value) {
+                        alert('Airport names in two drop down list cannot be same..');
+                      }
+                   }
+     
+      function checktime(){
+        let dep= document.getElementById("depttime")
+        let arr= document.getElementById("arrtime")
+        if(dep>2359 || dep<0000 || arr>2359 || arr<0000 ||dep==arr){
+          alert('Make time time in 24 hours format');
+        }
+      } 
+      // Date     
+      var f = document.querySelector("form");
+      f.addEventListener("submit", function(e){
+        var d = document.getElementById("date");
+        if(d.value.length < 1){
+          alert("Date Is Required");
+          e.preventDefault();
+        }
+      });       
+
+   </script>
+<main class="hero__images"> 
+<form action="{{ url_for('home')}}" method="post">  
+  <div class="container"> 
+  <div class="nine"> 
+  <center>  <h1> Predict Airplane Delay  <span>We Predict Your Delay For Better Planning </span></h1> </center>  
+</div>
+  <hr> 
+<div class="user_id"> 
+<div>
+<br>
+<label> Date: </label>    
+<input type="date" name="date" id ="date"  required/> 
+<hr>
+<br>
+<label><h3>Choose a Airline</h3></label>  
+<br>
+<label>   
+Airplane :  
+</label>   
+<td>
+    <select id="selectStyle" name="streamlistselect"  ></select> 
+</td>
+ 
+<label><h3>Choose a Departure Airport</h3></label>  
+<br>
+<label>   
+Departure Airport :  
+</label>   
+<td>
+    <select id="selectStyledept" name="streamlistselectdept" onchange="checkDropdownSelection()" ></select>
+    
+</td>
+
+<label><h3>Choose a Arrival Airport</h3></label>  
+<br>
+<label>   
+ArrivalAirport :  
+</label>   
+<td>
+    <select id="selectStylearr" name="streamlistselectarr" onchange="checkDropdownSelection()"></select>
+    
+</td>
+<br>
+<br>
+<label>   
+  Departure time (In 24 hrs format only) :  
+</label>
+<input type="text" id="depttime" name="depttime" placeholder="Departure time" size="4" onchange="checktime()" required>
+<label>   
+  Arrival time (In 24 hrs format only) :  
+</label>
+<input type="text" id="arrtime" name="arrtime" placeholder="Arrival time" size="4" onchange="checktime()" required>
+
+</div>  
+    <br> 
+    <div class="btn__wrapper">
+    <button type="submit" class="registerbtn" >PREDICT DELAY</button>  
+  </div>
+  </div>  
+</form> 
+
+<br>
+<br>
+<div class="container1"> 
+<label><center>  
+  DISPLAY INFORMATION FOR PREDICTED DELAY :  
+</center> </label><br>
+<label> AIRLINE NAME :</label>
+<h4>{{pname}}</h4><br>
+<label>FROM :</label>
+<h4>{{fromairport}}</h4><br>
+<label> TO :</label>
+<h4>{{toairport}}</h4><br>
+<label> TIME :</label>
+<h4>Actual Departure:-{{ ad }}   &emsp;     Actual Arrival:-{{ aa }}</h4>
+<label>   
+  PROBIBALITY THAT YOUR FLIGHT WILL BE DELAYED:  
+</label><br>
+<h4 id="pred">{{ passe }}</h4>
+
+</div>
+</main>
+</body>  
+</html>  

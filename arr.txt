@@ -1,0 +1,272 @@
+Abilene Regional
+Adams 
+Akron-Canton Regional
+Albany Cty
+Albert J Ellis
+Albuquerque International
+Alexandria International
+Amarillo International
+Arcata
+Asheville Regional
+Aspen-Pitkin Co/Sardy 
+Atlantic City International
+Austin Straubel International
+Austin-Bergstrom International
+Baltimore-Washington International
+Bangor International
+Baton Rouge Metropolitan, Ryan 
+Bellingham Intl
+Bert Mooney
+Billings Logan Intl
+Binghamton Regional
+Birmingham International
+Bishop
+Bismarck Municipal
+Blue Grass 
+Boise Air Terminal
+Bradley International
+Brownsville/S.Padre Island International
+Buffalo Niagara Intl
+Burbank-Glendale-Pasadena
+Burlington International
+Bush 
+Capital
+Capital City
+Cedar City Muni
+Central Illinois Regional
+Central Wisconsin
+Charleston AFB/International
+Charlotte/Douglas International
+Charlottesville-Albermarle
+Cherry Capital
+Chicago Midway
+Chicago O'Hare International
+Chico Municipal
+Cincinnati Northern Kentucky Intl
+City of Colorado Springs Muni
+Cleveland-Hopkins Intl
+Columbia Metropolitan
+Columbus Metropolitan
+Corpus Christi International
+Craven County Regional
+Cyril E. King
+Dallas Love 
+Dallas-Fort Worth International
+Dane County Regional
+Daytona Beach International
+Deadhorse
+Denver Intl
+Des Moines International
+Detroit Metropolitan-Wayne County
+Dothan 
+Dubuque Municipal
+Duluth International
+Durango-La Plata County
+Eagle County Regional
+Eastern Iowa 
+Easterwood 
+Eglin Air Force Base
+El Paso International
+Elko Regional
+Elmira/Corning Regional
+Eppley Airfield
+Evansville Regional
+Fairbanks International
+Fayetteville Municipal
+Flagstaff Pulliam
+Fort Lauderdale-Hollywood Int'l
+Fort Smith Regional
+Fort Wayne International
+Fresno Yosemite International
+Friedman Memorial
+Gainesville Regional
+Gallatin 
+Gen Edw L Logan Intl
+General Mitchell International
+George Bush Intercontinental
+Glacier Park Intl
+Golden Triangle Regional
+Grand Forks International
+Great Falls Intl
+Greater Peoria Regional
+Greater Rochester Int'l
+Greater Rockford
+Greenville-Spartanburg
+Gregg County
+Gulfport-Biloxi Regional
+Gunnison County
+Harrisburg Intl
+Hector International
+Helena Regional
+Hilo International
+Hilton Head
+Honolulu International
+Houghton County Memorial
+Huntsville International 
+Idaho Falls Regional
+Imperial County
+Indianapolis International
+Inyokern
+Jack McNamara 
+Jackson Hole
+Jackson International
+Jacksonville International
+James C. Johnson Petersburg
+James M Cox Dayton Intl
+Joe Foss 
+John F Kennedy Intl
+John Wayne /Orange Co
+Joslin Field - Magic Valley
+Juneau International
+Kahului
+Kalamazoo County
+Kansas City International
+Kent County International
+Ketchikan International
+Key 
+Key West International
+Kona International At Keahole
+La Crosse Municipal
+LaGuardia
+Lafayette Regional
+Lake Charles Regional
+Lambert-St Louis International
+Laredo International
+Lawton-Ft Sill Regional
+Lehigh Valley International
+Lewiston-Nez Perce County
+Lihue
+Lincoln Municipal
+Long Beach (Daugherty )
+Long Island - MacArthur
+Los Angeles International
+Louisville International-Standiford 
+Lovell 
+Lubbock International
+Luis Munoz Marin International
+MC Clellan-Palomar Airport
+Mahlon Sweet 
+Manchester
+Marquette County Airport
+Mbs International
+McAllen Miller International
+McCarran International
+McGhee-Tyson
+McNary Fld
+Meadows 
+Melbourne International 
+Memphis International
+Mercedita
+Merle K (Mudhole) Smith
+Metropolitan Oakland International
+Miami International
+Middle Georgia Regional
+Midland International
+Minneapolis-St Paul Intl
+Minot International
+Missoula International
+Mobile Regional
+Modesto City-County-Harry Sham 
+Monroe Regional
+Monterey Peninsula
+Montgomery Regional Apt
+Montrose Regional
+Myrtle Beach International
+Nashville International
+Natrona County Intl
+New Orleans International 
+Newark Intl
+Newport News/Williamsburg International
+Nome
+Norfolk International
+Northwest Arkansas Regional
+Ontario International
+Orlando International
+Outagamie County Regional
+Oxnard
+Palm Beach International
+Palm Springs International
+Palmdale Production Flight
+Panama City-Bay County International
+Pensacola Regional
+Philadelphia Intl
+Phoenix Sky Harbor International
+Piedmont Triad International
+Pittsburgh International
+Pocatello Regional
+Port Columbus Intl
+Portland International Jetport
+Portland Intl
+Quad City
+Rafael Hernandez
+Raleigh-Durham International
+Ralph Wien Memorial
+Rapid City Regional
+Redding Municipal
+Reno/Tahoe International
+Rhinelander-Oneida County
+Richmond International
+Roanoke Regional/ Woodrum 
+Robert Gray AAF
+Roberts 
+Rochester International
+Rogue Valley International
+Ronald Reagan Washington National
+Roswell Industrial Air Center
+Sacramento International
+Salt Lake City Intl
+San Angelo Regional /Mathis 
+San Antonio International
+San Diego International-Lindbergh 
+San Francisco International
+San Jose International
+San Luis Obispo Co-McChesney 
+Santa Barbara Municipal
+Santa Maria Pub/Capt G Allan Hancock 
+Sarasota Bradenton International
+Savannah International
+Seattle-Tacoma Intl
+Sheppard AFB/Wichita Falls Municipal
+Shreveport Regional
+Sioux Gateway 
+Sitka
+South Bend Regional
+Southwest Florida International
+Southwest Georgia Regional
+Spokane Intl
+Springfield-Branson Regional
+St George Muni
+Stewart
+Syracuse-Hancock Intl
+Tallahassee Regional
+Tampa International 
+Ted Stevens Anchorage International
+Telluride Regional
+Texarkana Regional-Webb 
+Theodore F Green State
+Toledo Express
+Tri-Cities
+Tri-Cities Regional
+Tucson International
+Tulsa International
+Tyler Pounds 
+University Park
+University of Illinois-Willard
+Valdosta Regional
+Valley International
+Waco Regional
+Walker 
+Washington Dulles International
+Westchester Cty
+Wichita Mid-Continent
+Wiley Post Will Rogers Memorial
+Wilkes-Barre/Scranton Intl
+Will Rogers World
+William B Hartsfield-Atlanta Intl
+William P Hobby
+Wilmington International
+Yakutat
+Yampa Valley
+Yeager
+Yellowstone Regional
+Yuma MCAS-Yuma International
